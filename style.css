@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#the-first-one{
+    background-color: #f3824e;
+    margin: 20px;
+    border-radius: 20px;
+}
+.un h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.un p,.deux p{
+    padding-top: 12px;
+    padding-left: 40px;
+    font-size: large;
+
+}
+.photo1 , .photo2{
+    padding-left: 40%;
+    padding-right: 30%;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.photo2{
+    width: 350px;
+}
+#the-deuxieme{
+    background-color: #f3b14e;
+    border-radius: 20px;
+    margin: 20px;
+}
+#the-deuxieme p{
+    font-size:large ;
+    padding: 10px;
+}
+#the-troisieme-part{
+    background-color: #f3cd4e; 
+    border-radius: 20px;
+    margin: 20px;
+}
+#the-troisieme-part h3{
+    padding: 10px;
+    padding-left: 60px;
+}
+#the-troisieme-part ol,ul{
+    padding-left: 100px;
+}
+#the-dernier-part{
+    background-color:#c2f34e;
+    border-radius: 20px;
+    margin: 20px;
+}
+.formulaire {
+    width: 100%; /* Utilise la largeur totale du conteneur parent */
+    display: flex;
+    align-items: center; /* Aligne les éléments verticalement */
+    margin-bottom: 20px;
+}
+.input-size{
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    
+}
+.bouton{
+    display: block;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px; 
+    width: 140px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.nos-information {
+    font-size: 18px; 
+    padding: 10px;
+    
+}
+
+
+
