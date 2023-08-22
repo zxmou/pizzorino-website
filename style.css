@@ -6,6 +6,38 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+/* Applique un fond de couleur à la barre de navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+    height: 50px; /* Hauteur de la barre de navigation */
+  }
+  
+  /* Style pour chaque élément de la liste */
+  nav ul li {
+    display: inline; /* Afficher les éléments en ligne */
+    margin-right: 20px; /* Espacement entre les éléments de la liste */
+    line-height: 50px; /* Centrer verticalement le texte dans chaque élément */
+  }
+  
+  /* Style pour les liens dans les éléments de la liste */
+  nav ul li a {
+    text-decoration: none; /* Supprimer la soulignement par défaut des liens */
+    color: white; /* Couleur du texte des liens */
+    font-weight: bold; /* Texte en gras */
+    padding: 0 10px; /* Espacement horizontal des liens */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s, color 0.3s; /* Transition pour le survol des liens */
+  }
+  
+  /* Changement de style au survol des liens */
+  nav ul li a:hover {
+    background-color: white; /* Fond blanc au survol */
+    color: #333; /* Texte noir au survol */
+  }
+  
 #the-first-one{
     background-color: #f3824e;
     margin: 20px;
@@ -60,9 +92,9 @@ body{
     margin: 20px;
 }
 .formulaire {
-    width: 100%; /* Utilise la largeur totale du conteneur parent */
+    width: 100%; 
     display: flex;
-    align-items: center; /* Aligne les éléments verticalement */
+    align-items: center; 
     margin-bottom: 20px;
 }
 .input-size{
